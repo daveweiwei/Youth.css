@@ -1,0 +1,39 @@
+{
+  "name": "Youth",
+  "version": "1.0.0",
+  "author": "yangdawei <513206974@qq.com>",
+  "description": "Youth CSS framework based on Grid",
+  "main": "youth.less",
+  "style": "youth/css/youth.css",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"lessc youth.less css/youth.css"
+  },
+  "keywords": [
+    "css",
+    "less",
+    "grid",
+    "responsive",
+    "framework"
+  ],
+  "bugs": {
+    "url": ""
+  },
+  "files": [
+    "css",
+    "less",
+    "youth.less",
+    "LICENSE",
+    "README.md"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^7.2.2",
+    "gulp": "^3.9.1",
+    "rimraf": "^2.6.2"
+  }
+}
