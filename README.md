@@ -1,6 +1,6 @@
 # [Youth]()
 
-Youth CSS framework based on [Grid]
+Youth CSS framework based on Grid
 
 [![npm](https://img.shields.io/badge/npm-2.1.0-blue.svg)]()
 [![npm](https://img.shields.io/badge/license-MIT-blue.svg)]()
