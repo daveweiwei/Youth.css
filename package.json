@@ -1,6 +1,6 @@
 {
   "name": "Youth",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "author": "yangdawei <513206974@qq.com>",
   "description": "Youth CSS framework based on Grid",
   "main": "youth.less",

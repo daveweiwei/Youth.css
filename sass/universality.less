@@ -1,0 +1,90 @@
+@import "base";
+/*通用类，定义普遍性场景使用的通用样式*/
+
+/*关于文本*/
+.small-1,.small-2,.small-3,.small-4,.small-5,.small-6.small{
+  color: @colorLightGray;
+}
+.small-1{
+  font-size: 1.6rem;
+}
+.small-2{
+  font-size: 1.5rem;
+}
+.small-3{
+  font-size: 1.2rem;
+}
+.small-4{
+  font-size: 1rem;
+}
+.small-5{
+  font-size: 0.8rem;
+}
+.small-6{
+  font-size: 0.6rem;
+}
+.mark,mark{
+  background-color: @colorLightAmber;
+}
+.del{
+  text-decoration:line-through;
+}
+.ins{
+  text-decoration:underline;
+}
+.strong{
+  font-weight: 700;
+}
+.em{
+  font-style:oblique;
+}
+.text-lowercase{
+  text-transform:lowercase;
+}
+.text-uppercase{
+  text-transform:uppercase;
+}
+.text-capitalize{
+  text-transform:capitalize;
+}
+.text-overflow{
+  text-overflow:ellipsis;
+  overflow: hidden;
+}
+/*关于表格*/
+.table{
+  width: 100%;
+  max-width: 100%;
+  background-color: @backgroundColorBase;
+  & tr{
+    line-height: 1.5;
+  }
+  & tbody>tr{
+    border-top:0.07rem solid @borderColorBase;
+  }
+  & th,td{
+    vertical-align: top;
+    padding: 0 0.3rem;
+  }
+}
+.table-border{
+  border:0.07rem solid @borderColorBase;
+}
+.table-hover{
+  & tbody tr:hover{
+    background-color: @backgroundBlueGray;
+  }
+}
+/*关于数据提示*/
+.success{
+  background-color: @backgroundLightGreen;
+}
+.info{
+  background-color: @backgroundLightBlue;
+}
+.warning{
+  background-color: @backgroundLightAmber;
+}
+.danger	{
+  background-color: @backgroundLightDeep;
+}

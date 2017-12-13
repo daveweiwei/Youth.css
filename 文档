@@ -1,0 +1,32 @@
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+对于内联文本元素：
+对于被删除或无用的文本使用 <del> 标签，或者.del类
+插入的文本使用 <ins> 标签。或者.ins类
+<mark> 标签定义带有记号的文本。请在需要突出显示文本时使用 <mark> 标签或者.mark类
+h1-h6标题内还可以包含 <small> 标签或赋予 .small-1 - .small-6 类的元素，可以用来标记副标题
+对于要强调的文本请用<strong>或者.strong类
+用斜体强调一段文本 <em> 或者.em类
+
+英文文本改变大小写:
+.text-lowercase 小写字母
+.text-uppercase 大写字母
+.text-capitalize 首字母大写
+
+文本过长溢出部分用省略号：
+.text-overflow
+
+按照文本的格式来显示文本请用<pre>标签，很适合显示程序代码
+
+表格:
+为任意 <table> 标签添加 .table 类可以为其赋予基本的样式
+添加 .table-border 类为表格和其中的每个单元格增加边框
+通过添加 .table-hover 类可以让 <tbody> 中的每一行对鼠标悬停状态作出响应
+
+根据需要单独设置的语义颜色：
+.success	标识成功或积极的动作
+.info	标识普通的提示信息或动作
+.warning	标识警告或需要用户注意
+.danger	标识危险或潜在的带来负面影响的动作
+
+
