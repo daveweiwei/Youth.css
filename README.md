@@ -23,4 +23,4 @@ Youth CSS framework based on [Grid]
 
 Code copyright 2017 David Yang.
 
-Youth.CSS is open source and released under the MIT Licence.
+Youth.CSS is open source and released under the [MIT license](https://github.com/daveweiwei/Youth.css/blob/master/LICENSE).
