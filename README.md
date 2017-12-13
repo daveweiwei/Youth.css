@@ -8,7 +8,8 @@ Youth CSS framework based on Grid
 
 ## Browser Support
 
-* ie 11+  edge 16+
+* ie 11+  
+* edge 16+
 * chrome
 * firefox
 * safari 11+
