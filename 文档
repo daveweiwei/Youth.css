@@ -29,4 +29,16 @@ h1-h6标题内还可以包含 <small> 标签或赋予 .small-1 - .small-6 类的
 .warning	标识警告或需要用户注意
 .danger	标识危险或潜在的带来负面影响的动作
 
+关于表单：
+给form表单添加form-format类会让表单带上一个边框和padding，这样使得表单看上去更有层次感，更像个表单
+通过form-row来把表单空间分割一行一行的独立的表单组
+
+
+
+主题
+.input-act 可以让获得焦点的input获得高亮提示，一般都用在文本框 密码框 邮箱框中
+disabled对input textarea select button禁用时的定义
+为基于 <a> 元素创建的按钮添加 .disabled 类
+
+
 

@@ -1,0 +1,232 @@
+@charset "utf-8";
+/*! Youth.css v0.0.1 | MIT License | github.com/daveweiwei/Youth.css */
+html,
+body {
+  font-size: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+* {
+  font-family: Arial, Helvetica, Microsoft YaHei, STXihei, sans-serif;
+  box-sizing: inherit;
+  border-radius: 0.2rem;
+}
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.8rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 1.25rem;
+}
+h5 {
+  font-size: 1rem;
+}
+h6 {
+  font-size: 0.6rem;
+}
+ul {
+  list-style: none;
+}
+small {
+  color: #bdbdbd;
+}
+a {
+  text-decoration: none;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #000000;
+}
+img,
+embed,
+iframe,
+object,
+audio,
+video {
+  height: auto;
+  max-width: 100%;
+}
+iframe {
+  border: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+  text-align: left;
+  border-radius: initial;
+}
+fieldset,
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  border: 0.07rem solid #bdbdbd;
+  margin: 0.1rem;
+}
+fieldset {
+  padding: 0.5rem;
+}
+input[type=password],
+input[type=email],
+input[type=text] {
+  line-height: 1.3;
+  padding: 0.1rem;
+}
+input[type=button],
+input[type=submit],
+button,
+select {
+  cursor: pointer;
+}
+input[type=button],
+input[type=submit] {
+  background: #fff;
+  padding: 0.2rem;
+}
+button {
+  background-color: #fff;
+}
+/*通用类，定义普遍性场景使用的通用样式*/
+/*关于文本*/
+.small-1,
+.small-2,
+.small-3,
+.small-4,
+.small-5,
+.small-6.small {
+  color: #bdbdbd;
+}
+.small-1 {
+  font-size: 1.6rem;
+}
+.small-2 {
+  font-size: 1.5rem;
+}
+.small-3 {
+  font-size: 1.2rem;
+}
+.small-4 {
+  font-size: 1rem;
+}
+.small-5 {
+  font-size: 0.8rem;
+}
+.small-6 {
+  font-size: 0.6rem;
+}
+.mark,
+mark {
+  background-color: #ffecb3;
+}
+.del {
+  text-decoration: line-through;
+}
+.ins {
+  text-decoration: underline;
+}
+.strong {
+  font-weight: 700;
+}
+.em {
+  font-style: oblique;
+}
+.text-lowercase {
+  text-transform: lowercase;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+.text-overflow {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+/*关于表格*/
+.table {
+  width: 100%;
+  max-width: 100%;
+  background-color: #fff;
+}
+.table tr {
+  line-height: 1.5;
+}
+.table tbody > tr {
+  border-top: 0.07rem solid #bdbdbd;
+}
+.table th,
+.table td {
+  vertical-align: top;
+  padding: 0 0.3rem;
+}
+.table-border {
+  border: 0.07rem solid #bdbdbd;
+}
+.table-hover tbody tr:hover {
+  background-color: #eceff1;
+}
+/*关于数据提示*/
+.success {
+  background-color: #69f0ae;
+}
+.info {
+  background-color: #90caf9;
+}
+.warning {
+  background-color: #ffe0b2;
+}
+.danger {
+  background-color: #ffab91;
+}
+
